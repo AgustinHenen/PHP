@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>zzzz</title>
+</head>
+<body>
+<?php
+    echo 'Hola mundo';
+    ?>
+    
+<?php
+  $num1 = 18;
+    $num2 = 10;
+ 
+    $suma = $num1 + $num2; 
+ 
+    echo 'La suma es ' . $suma ;
+    ?>
+
+<?php
+    echo '';
+    $i = 1;
+    while($i<=12){
+        echo $i . ' ';
+        $i++;
+    }
+ ?>
+ 
+ <?php
+        $ruta = "js/foto_henen.jpg"; // no me salió
+    ?>
+ 
+    <img src=" <?php echo $ruta; ?> "> 
+    
+    
+<?php
+ 
+    $num1 = 5;
+    $num2 = 10;
+ 
+    $suma = $num1 * $num2; 
+ 
+    echo 'La multiplicación es es ' . $suma;
+?>
+    
+</body>
+</html>
